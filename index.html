@@ -219,11 +219,11 @@
             <h1 class="logo-text">moneynomoney</h1>
             
             <div class="actions-wrapper">
-                <!-- Single Download Button -->
-                <button id="download-btn" class="btn btn-primary">
+                <!-- Download Button -->
+                <a href="https://github.com/MoneyNoMoney/MoneyNoMoney-Loader/releases/latest/download/MoneyNoMoney.dll" class="btn btn-primary" download>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                     <span>Download</span>
-                </button>
+                </a>
 
                 <!-- Telegram Button -->
                 <a href="https://t.me/moneynomoney" target="_blank" class="btn btn-telegram">
@@ -235,14 +235,7 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const downloadBtn = document.getElementById('download-btn');
-            downloadBtn.addEventListener('click', () => {
-                alert('Downloading injector...');
-                // Здесь вы можете прописать скачивание инжектора:
-                // window.location.href = 'downloads/injector.exe';
-            });
-        });
+        // Дополнительные скрипты при необходимости
     </script>
 </body>
 </html>
